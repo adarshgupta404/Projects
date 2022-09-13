@@ -4,8 +4,6 @@
 #include <windows.h>
 #include <time.h>
 
-//#define SCREEN_WIDTH 90
-//#define SCREEN_HEIGHT 26
 #define WIN_WIDTH 70 
 
 #define T1POS 15
@@ -62,7 +60,7 @@ void drawTile(int tower, int tileNo, int y){
 	
 	for(int j=0; j<((tileNo)*2)-1; j++){
 		gotoxy(x,y);
-		cout<<"�";
+		cout<<"#";
 		x++;
 	}
 }
