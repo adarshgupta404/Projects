@@ -41,12 +41,14 @@ int main()
 
     RenderWindow window(VideoMode(w, h), "Snake Game!");
 
-    Texture t1,t2;
+    Texture t1,t2,t3;
     t1.loadFromFile("images/white.png");
-    t2.loadFromFile("images/red.png");
+    t2.loadFromFile("images/green.png");
+    t3.loadFromFile("images/red.png");
 
     Sprite sprite1(t1);
     Sprite sprite2(t2);
+    Sprite sprite3(t3);
 
     Clock clock;
     float timer=0, delay=0.1;
@@ -84,7 +86,7 @@ int main()
     for (int i=0;i<num;i++)
         { sprite2.setPosition(s[i].x*size, s[i].y*size);  window.draw(sprite2); }
    
-    sprite2.setPosition(f.x*size, f.y*size);  window.draw(sprite2);    
+    sprite3.setPosition(f.x*size, f.y*size);  window.draw(sprite3);    
 
     window.display();
     }
