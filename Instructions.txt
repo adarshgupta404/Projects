@@ -1,11 +1,11 @@
 For Example:
 main is the name of cpp file
 snake is the .exe file made using sfml
-1. Add .vscode folder
+1. Add .vscode folder and write path of sfml library.
 2. Open New terminal
 3. Run in terminal: 
 	g++ -c main.cpp -I"C:\SFML-2.5.1-windows-gcc-7.3.0-mingw-32-bit\SFML-2.5.1\include"
 4. Run in terminal:
 	g++ main.o -o snake -L"C:\SFML-2.5.1-windows-gcc-7.3.0-mingw-32-bit\SFML-2.5.1\lib" -lsfml-graphics -lsfml-window -lsfml-system  
-4. Run in terminal:
+5. Run in terminal:
 	./snake  
