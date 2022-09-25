@@ -1,4 +1,4 @@
-# Tim's Towers of Hanoi
+# Towers of Hanoi
 
 ## What is It?
 The [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) is a classic math game/puzzle. The object of the game is to move the tower from one column to another, following these three rules:
