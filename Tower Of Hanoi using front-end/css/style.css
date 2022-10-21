@@ -78,9 +78,17 @@ footer > a:hover {
   border-left: 10px dashed #EFDC05;
 }
 
+.level:hover{
+  color: #E53A40;
+}
+
 .ring {
   height: 2rem;
   background: #8563c4;
+  border-style: solid;
+  /* border-color: aliceblue; */
+  border-width: 1px;
+  border-radius: 8px;
   /*Easing from http://easings.net/*/
   transition: all 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -175,7 +183,7 @@ footer > a:hover {
 }
 
 @keyframes rumble {
-  from {transform: rotate(10deg) translate(0, -1rem);}
+  from {transform: rotate(20deg) translate(0, -1rem);}
   /*60% {transform: rotate(-5deg) translate(0, -1rem);}*/
   to {transform: translate(0, -1rem);}
 }
