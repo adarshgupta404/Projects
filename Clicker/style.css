@@ -1,0 +1,21 @@
+body{
+    margin:0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section {
+    text-align: center;  
+  }
+p{
+    position: relative;
+    font-size: 2rem;
+    color: white;
+}
+span{
+    margin-left: 5px;
+    font-size: 2rem;
+    color: blue;
+}
