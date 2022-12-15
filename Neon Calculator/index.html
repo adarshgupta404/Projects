@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="row">
+                <input class="dis" id="userInput" placeholder="0">
+            </div>
+            <div class="button">
+                <div class="row">
+                    <div class="col"><button class=" btn btn-light" id ="C" onclick="erase()">C</button>
+                        <button class=" btn btn-light item dot" onclick="press('.')">.</button>
+                        <button class=" btn btn-light item mod" onclick="press('%')">%</button>
+                        <button class=" btn btn-light item d" onclick="press('/')">÷</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button class="btn btn-light" onclick="press(7)">7</button>
+                        <button class="btn btn-light" onclick="press(8)">8</button>
+                        <button class="btn btn-light" onclick="press(9)">9</button>
+                        <button class="btn btn-light item X" onclick="press('*')">X</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button class="btn btn-light" onclick="press(4)">4</button>
+                        <button class="btn btn-light" onclick="press(5)">5</button>
+                        <button class="btn btn-light" onclick="press(6)">6</button>
+                        <button class="btn btn-light item minus" onclick="press('-')">-</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button class="btn btn-light" onclick="press(3)">3</button>
+                        <button class="btn btn-light" onclick="press(2)">2</button>
+                        <button class="btn btn-light" onclick="press(1)">1</button>
+                        <button class="btn btn-light item " onclick="press('+')">+</button>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button class="btn btn-light" id ="D" onclick="del()">D</button>
+                        <button class="btn btn-light" onclick="press(0)">0</button>
+                        <button class="btn btn-light equal" onclick="equal()">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Neon Calculator
+    </a>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="index.js"></script>
+</body>
+
+
+</html>
